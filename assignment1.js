@@ -1,4 +1,4 @@
-//1.
+//S.1
 let operator="";
 
 let a=10,b=2;
@@ -28,7 +28,7 @@ switch(operator)
               break;
 }
 
-//2
+//S.2
 let month=5;
 
 switch(month){
@@ -74,7 +74,7 @@ switch(month){
 
 console.log(month);
 
-//3
+//S.3
 
 let grade='b';
 switch(grade){
@@ -100,7 +100,7 @@ switch(grade){
         console.log("no result");
 }
 
-//4
+//S.4
 
 let browser="chrome";
 switch(browser){
@@ -115,7 +115,7 @@ switch(browser){
 
 }
 
-//5
+//S.5
 let number=7;
 
 switch(number%2){
@@ -130,7 +130,7 @@ switch(number%2){
         console.log("invalid");
 }
 
-//6
+//S.6
 let role="admin";
 let action="edit";
 
@@ -155,7 +155,7 @@ switch(role){
 
 
 }
-//7
+//S.7
 let age=60;
 
 switch(age){
@@ -176,7 +176,7 @@ switch(age){
         
 }
 
-//8
+//S.8
 let fruit = "apple";
 
 switch (fruit) {
@@ -190,7 +190,7 @@ switch (fruit) {
     console.log("Unknown fruit!");
 }
 
-//9
+//S.9
 let color = "green";
 
 switch (color) {
@@ -206,7 +206,7 @@ switch (color) {
     break;
 }
 
-//10
+//S.10
 let weatherCode = 2;
 
 switch (weatherCode) {
@@ -229,20 +229,20 @@ switch (weatherCode) {
     console.log("Weather data unavailable.");
 }
 
-//11
+//S.11
 const result=[1,2,3,4,5];
 const squreResult=result.map(num=>num*num);
 console.log(result);
 console.log(squreResult);
 
-//12
+//S.12
 const names = ["Alice", "Bob", "Charlotte", "David", "Evelyn", "John"];
 
 const Names = names.filter(name => name.length > 5);
 
 console.log(Names);
 
-//13
+//S.13
 const numbers = [1, 2, 3, 4, 5];
 
 const sumOfOdds = numbers.reduce((sum, num) =>
@@ -251,7 +251,7 @@ const sumOfOdds = numbers.reduce((sum, num) =>
 
 console.log(sumOfOdds);
 
-//14
+//S.14
 const customMap = (arr, fn) => {
   const result = [];
   for (let i = 0; i < arr.length; i++) {
@@ -265,7 +265,7 @@ const nums = [1, 2, 3];
 const doubled = customMap(nums, x => x * 2);
 console.log(doubled);  
 
-//15
+//S.15
 const repeat = (fn, n) => {
   for (let i = 0; i < n; i++) {
     fn();
@@ -276,21 +276,21 @@ const repeat = (fn, n) => {
 const sayHello = () => console.log("Hello!");
 repeat(sayHello, 3);
 
-//16
+//S.16
 const arr = ['apple', 'banana', 'cherry'];
 
 arr.forEach((value, index) => {
   console.log(`Index: ${index}, Value: ${value}`);
 });
 
-//17
+//S.17
 const words = ["Hello", "world", "this", "is", "amit HERE!"];
 
 const sentence = words.reduce((acc, word) => acc + " " + word);
 
 console.log(sentence);
 
-//18
+//S.18
 const word = ["madam", "hello", "racecar", "world", "level"];
 
 const nonPalindromes = word.filter(word => {
@@ -299,14 +299,14 @@ const nonPalindromes = word.filter(word => {
 
 console.log(nonPalindromes);
 
-//19
+//S.19
 const num= [1, 2, 3, 4, 5];
 
 const evenOdd = num.map(num => (num % 2 === 0 ? "Even" : "Odd"));
 
 console.log(evenOdd);
 
-//20
+//S.20
 const n = [1, 2, 2, 3, 1, 4, 2];
 
 const counts = n.reduce((acc, num) => {
@@ -317,14 +317,14 @@ const counts = n.reduce((acc, num) => {
 console.log(counts);
 
 
-//21
+//S.21
 const delay = (fn, time) => setTimeout(fn, time);
 
 const Hello = () => console.log("Hello");
 
 delay(Hello, 2000); 
 
-//22
+//S.22
 const sers=[
   {name:"amit",age:17,},
   {name:"david",age:25,},
@@ -336,29 +336,29 @@ const sers=[
 const adult=sers.filter(user=>user.age>18);
 console.log(adult);
 
-//23
+//S.23
 const numb= [1, 2, 3, 4];
 
-// Using map()
+//S. Using map()
 const d= numb.map(num => num * 2);
 console.log(d); 
 
-// Using forEach()
+//S. Using forEach()
 const r= numb.forEach(num => console.log(num * 2));
 console.log(r); 
 
 
-//24
+//S.24
 const sum = [1, 2, 3, 4].reduce((acc, curr) => acc + curr, 0);
 console.log(sum); 
 
-//25
+//S.25
 const greet = name => console.log("Hello, " + name);
 
 const higherOrder = (fn) => fn("Amit");Amit
 higherOrder(greet); 
 
-//26
+//S.26
 const bankaccount={
   balance:0,
   deposite(a){this.balance +=a;},
@@ -371,7 +371,7 @@ bankaccount.deposite(1000);
 bankaccount.withdraw(5000);
 console.log(bankaccount.balance);
 
-//27
+//S.27
 const person={
   name:"virat",
   sayHello(){
@@ -379,14 +379,14 @@ const person={
   }
 };
 person.sayHello();
-//28
+//S.28
  const son={
         name:"amit",
-        age:23,
-        address:"indore",
+        age:24,
+        address:"bhairahawa",
     }
     console.log(Object.keys(son));
-//29
+//S.29
 const numeric={
   a:10,
   b:20,
@@ -397,7 +397,7 @@ let sums=0;
 }
 console.log(sums);
 
-//30 marge
+//S.30 marge
  const obj1={
         name:"yadav",
     }
@@ -408,25 +408,25 @@ console.log(sums);
     console.log(results);
     
 
-    //31
+    //S.31
      const pers={
         name:"amit",
-        age:23,
-        address:"indore",
+        age:24,
+        address:"bhairahawa",
     }
      console.log(Object.freeze(pers));
 
-     //32
+     //S.32
      const obj={
       name:"ritthim",
       age:50
      };
 Object.seal(obj);
-obj.city="new york";//failed
-obj.age=87;//update success
+obj.city="new york";
+obj.age=87;
 console.log(obj);
 
-//33
+//S.33
 const obj3={
   name:"robooot",
   salary:200000
@@ -434,7 +434,7 @@ const obj3={
 console.log(obj3.hasOwnProperty("name"));
 console.log(obj3.hasOwnProperty("city"));
 
-//34
+//S.34
 const calculator={
   value:0,
   add(num){
@@ -451,7 +451,7 @@ console.log(calculator.value);
 calculator.subtract(10);
 console.log(calculator.value);
 
-//35
+//S.35
 const student = {
   name: "John",
   age: 20,
@@ -462,7 +462,7 @@ const student = {
 
 console.log(student.getDetails());
 
-//36
+//S.36
 const obj4= { a: 1, b: null, c: undefined, d: 4 };
 
 for (const key in obj4) {
@@ -473,26 +473,26 @@ for (const key in obj4) {
 
 console.log(obj4); 
 
-//37(frreze)
+//S.37(frreze)
 const u = { name: "Alice" };
 Object.freeze(u);
 
-u.age = 25;        // Adding not allowed
-u.name = "Bob";    // Changing not allowed
-delete u.name;     //  Deleting not allowed
+u.age = 25;        
+u.name = "Bob";    
+delete u.name;  
 
 console.log(u);    
-//seal
+//S.seal
 const u1 = { name: "Alice" };
 Object.seal(u1);
 
-u1.age = 25;        //  Adding not allowed
-u1.name = "Bob";    //  Changing allowed
-delete u1.name;     //  Deleting not allowed
+u1.age = 25;      
+u1.name = "Bob";    
+delete u1.name;     
 
 console.log(u1);    
 
-//38
+//S.38
 const obj5 = {
   name: "Alice",
   sallo: () => {
@@ -502,7 +502,7 @@ const obj5 = {
 
 obj5.sallo();
 
-//39
+//S.39
 const pe= {
   name: "Alice",
   s() {
@@ -512,7 +512,7 @@ const pe= {
 
 setTimeout(pe.s, 1000); 
 
-//40
+//S.40
 const u2 = { name: "Alice", age: 25 };
 
 const entries = Object.entries(u2);
