@@ -139,4 +139,3 @@ console.log(combineNamesAndMarks(names, marks));
 
 
 
-
