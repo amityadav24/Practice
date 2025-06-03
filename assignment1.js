@@ -503,14 +503,14 @@ const obj5 = {
 obj5.sallo();
 
 //S.39
-const pe= {
+const pre= {
   name: "Alice",
   s() {
     console.log("Hello, " + this.name);
   }
 };
 
-setTimeout(pe.s, 1000); 
+setTimeout(pre.s, 1000); 
 
 //S.40
 const u2 = { name: "Alice", age: 25 };
