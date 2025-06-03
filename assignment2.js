@@ -12,3 +12,4 @@ function countVowels(str) {
 }
 console.log(countVowels("Hello World"));
 console.log(countVowels("JavaScript"));  
+ 
